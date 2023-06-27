@@ -84,8 +84,6 @@ def eval_genomes(genomes, config):
             nnOutput = net.activate(imgarray)
             
             ob, rew, done, info = env.step(nnOutput)
-            
-            xpos2 = info['p2x']
             xpos = info['x']
             rings = info['rings']
             if rrwd == 0 and rings >= 25:

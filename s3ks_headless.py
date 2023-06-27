@@ -5,7 +5,7 @@ import cv2
 import neat
 import pickle
 zones = ['AngelIslandZone.Act1', 'CarnivalNightZone.Act1', 'DeathEggZone.Act1', 'DeathEggZone.Act2', 'FlyingBatteryZone.Act1', 'HydrocityZone.Act1', 'IcecapZone.Act2', 'LaunchBaseZone.Act1', 'LavaReefZone.Act2', 'MarbleGardenZone.Act2', 'FlyingBatteryZone.Act2', 'SandopolisZone.Act1']
-env = retro.make(game = "SonicAndMulti3-Genesis", state = random.choice(zones), players=1)
+env = retro.make(game = "SonicAndKnuckles3-Genesis", state = random.choice(zones), players=1)
 imgarray = []
 xpos_end = 0
 

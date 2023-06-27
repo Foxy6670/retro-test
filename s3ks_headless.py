@@ -113,7 +113,7 @@ def eval_genomes(genomes, config):
 
 config = neat.Config(neat.DefaultGenome, neat.DefaultReproduction,
                      neat.DefaultSpeciesSet, neat.DefaultStagnation,
-                     'config-why')
+                     'config-smart')
 
 if resume == True:
     p = neat.Checkpointer.restore_checkpoint(restore_file)
